@@ -98,7 +98,7 @@ if SupportedGame then
     Parvus.Loaded = true
 else
     Parvus.Current = "Universal"
-    loadstring(Parvus.Debug and readfile("Parvus/Universal.lua") or game:HttpGetAsync("https://raw.githubusercontent.com/AlexR32/Parvus/main/Universal.lua"))()
+    loadstring(Parvus.Debug and readfile("Parvus/Universal.lua") or game:HttpGetAsync("https://github.com/noskvc/re/blob/main/universal"))()
     Parvus.Utilities.UI:Notification({
         Title = "Parvus Hub",
         Description = Parvus.Current .. " loaded!",
